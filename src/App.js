@@ -15,7 +15,7 @@ function App() {
     ? "bg-gradient-to-b from-gray-800 to-black"
     : "bg-white-800";
   return (
-    <div className={`md:container md:mx-auto ${backgroundColor}`}>
+    <div className={`md:mx-auto ${backgroundColor}`}>
       <NavBar />
       <Home />
       <About />
